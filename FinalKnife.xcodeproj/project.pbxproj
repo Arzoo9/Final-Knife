@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBCEF588100CD41BD99BA1DF /* Pods_FinalKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B297E904640D6D493F467407 /* Pods_FinalKnife.framework */; };
+		DF41B3C721B79995006738CD /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41B3C621B79995006738CD /* IngredientsViewController.swift */; };
+		DF41B3CD21B874F1006738CD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41B3CC21B874F1006738CD /* Item.swift */; };
+		DF41B3CF21C03DE9006738CD /* addPhotoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41B3CE21C03DE9006738CD /* addPhotoHandler.swift */; };
+		DF50FBA621B3D3640051DBD1 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50FBA521B3D3640051DBD1 /* InitialViewController.swift */; };
+		DF50FBA821B487B90051DBD1 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50FBA721B487B90051DBD1 /* AddRecipeViewController.swift */; };
+		DF50FBAA21B75DF20051DBD1 /* IngredientTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50FBA921B75DF20051DBD1 /* IngredientTypeViewController.swift */; };
+		DF78DD1621B2351A0016F0AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF78DD1521B235190016F0AC /* GoogleService-Info.plist */; };
+		DF78DD1821B314020016F0AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF78DD1721B314020016F0AC /* HomeViewController.swift */; };
 		DF8532B321B22FDF00DFFE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8532B221B22FDF00DFFE60 /* AppDelegate.swift */; };
 		DF8532B521B22FDF00DFFE60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8532B421B22FDF00DFFE60 /* ViewController.swift */; };
 		DF8532B821B22FDF00DFFE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8532B621B22FDF00DFFE60 /* Main.storyboard */; };
@@ -14,6 +23,7 @@
 		DF8532BD21B22FE000DFFE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8532BB21B22FE000DFFE60 /* LaunchScreen.storyboard */; };
 		DF8532C821B22FE000DFFE60 /* FinalKnifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8532C721B22FE000DFFE60 /* FinalKnifeTests.swift */; };
 		DF8532D321B22FE000DFFE60 /* FinalKnifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8532D221B22FE000DFFE60 /* FinalKnifeUITests.swift */; };
+		DF8532E121B2304000DFFE60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8532E021B2304000DFFE60 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3CA2577EF5682A055A22EED /* Pods-FinalKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalKnife/Pods-FinalKnife.debug.xcconfig"; sourceTree = "<group>"; };
+		B297E904640D6D493F467407 /* Pods_FinalKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E87BEC0ABD8420E1DC415C /* Pods-FinalKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalKnife/Pods-FinalKnife.release.xcconfig"; sourceTree = "<group>"; };
+		DF41B3C621B79995006738CD /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		DF41B3CC21B874F1006738CD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DF41B3CE21C03DE9006738CD /* addPhotoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPhotoHandler.swift; sourceTree = "<group>"; };
+		DF50FBA521B3D3640051DBD1 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		DF50FBA721B487B90051DBD1 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		DF50FBA921B75DF20051DBD1 /* IngredientTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTypeViewController.swift; sourceTree = "<group>"; };
+		DF78DD1521B235190016F0AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF78DD1721B314020016F0AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF8532AF21B22FDF00DFFE60 /* FinalKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8532B221B22FDF00DFFE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF8532B421B22FDF00DFFE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 		DF8532CE21B22FE000DFFE60 /* FinalKnifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalKnifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8532D221B22FE000DFFE60 /* FinalKnifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalKnifeUITests.swift; sourceTree = "<group>"; };
 		DF8532D421B22FE000DFFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8532E021B2304000DFFE60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCEF588100CD41BD99BA1DF /* Pods_FinalKnife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BE9B2C3C50B5BF6FC03E19D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B297E904640D6D493F467407 /* Pods_FinalKnife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		960DB5FAB17BADBF8679D491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA2577EF5682A055A22EED /* Pods-FinalKnife.debug.xcconfig */,
+				B8E87BEC0ABD8420E1DC415C /* Pods-FinalKnife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF8532A621B22FDF00DFFE60 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				DF8532C621B22FE000DFFE60 /* FinalKnifeTests */,
 				DF8532D121B22FE000DFFE60 /* FinalKnifeUITests */,
 				DF8532B021B22FDF00DFFE60 /* Products */,
+				960DB5FAB17BADBF8679D491 /* Pods */,
+				8BE9B2C3C50B5BF6FC03E19D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +140,19 @@
 			isa = PBXGroup;
 			children = (
 				DF8532B221B22FDF00DFFE60 /* AppDelegate.swift */,
+				DF50FBA721B487B90051DBD1 /* AddRecipeViewController.swift */,
+				DF41B3CE21C03DE9006738CD /* addPhotoHandler.swift */,
 				DF8532B421B22FDF00DFFE60 /* ViewController.swift */,
+				DF50FBA521B3D3640051DBD1 /* InitialViewController.swift */,
 				DF8532B621B22FDF00DFFE60 /* Main.storyboard */,
+				DF41B3C621B79995006738CD /* IngredientsViewController.swift */,
+				DF41B3CC21B874F1006738CD /* Item.swift */,
+				DF50FBA921B75DF20051DBD1 /* IngredientTypeViewController.swift */,
+				DF78DD1721B314020016F0AC /* HomeViewController.swift */,
 				DF8532B921B22FE000DFFE60 /* Assets.xcassets */,
 				DF8532BB21B22FE000DFFE60 /* LaunchScreen.storyboard */,
 				DF8532BE21B22FE000DFFE60 /* Info.plist */,
+				DF78DD1521B235190016F0AC /* GoogleService-Info.plist */,
 			);
 			path = FinalKnife;
 			sourceTree = "<group>";
@@ -112,6 +162,7 @@
 			children = (
 				DF8532C721B22FE000DFFE60 /* FinalKnifeTests.swift */,
 				DF8532C921B22FE000DFFE60 /* Info.plist */,
+				DF8532E021B2304000DFFE60 /* GoogleService-Info.plist */,
 			);
 			path = FinalKnifeTests;
 			sourceTree = "<group>";
@@ -132,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF8532D721B22FE000DFFE60 /* Build configuration list for PBXNativeTarget "FinalKnife" */;
 			buildPhases = (
+				8AD1123AA10F40744AC44782 /* [CP] Check Pods Manifest.lock */,
 				DF8532AB21B22FDF00DFFE60 /* Sources */,
 				DF8532AC21B22FDF00DFFE60 /* Frameworks */,
 				DF8532AD21B22FDF00DFFE60 /* Resources */,
+				137CFA6A940E62C00CCAD747 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8532BD21B22FE000DFFE60 /* LaunchScreen.storyboard in Resources */,
+				DF78DD1621B2351A0016F0AC /* GoogleService-Info.plist in Resources */,
 				DF8532BA21B22FE000DFFE60 /* Assets.xcassets in Resources */,
 				DF8532B821B22FDF00DFFE60 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8532E121B2304000DFFE60 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +306,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		137CFA6A940E62C00CCAD747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FinalKnife/Pods-FinalKnife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalKnife/Pods-FinalKnife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD1123AA10F40744AC44782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalKnife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF8532AB21B22FDF00DFFE60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF50FBA821B487B90051DBD1 /* AddRecipeViewController.swift in Sources */,
+				DF50FBA621B3D3640051DBD1 /* InitialViewController.swift in Sources */,
+				DF50FBAA21B75DF20051DBD1 /* IngredientTypeViewController.swift in Sources */,
+				DF41B3CD21B874F1006738CD /* Item.swift in Sources */,
+				DF41B3CF21C03DE9006738CD /* addPhotoHandler.swift in Sources */,
 				DF8532B521B22FDF00DFFE60 /* ViewController.swift in Sources */,
+				DF41B3C721B79995006738CD /* IngredientsViewController.swift in Sources */,
 				DF8532B321B22FDF00DFFE60 /* AppDelegate.swift in Sources */,
+				DF78DD1821B314020016F0AC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +545,11 @@
 		};
 		DF8532D821B22FE000DFFE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CA2577EF5682A055A22EED /* Pods-FinalKnife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G29F5986U8;
 				INFOPLIST_FILE = FinalKnife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +564,11 @@
 		};
 		DF8532D921B22FE000DFFE60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E87BEC0ABD8420E1DC415C /* Pods-FinalKnife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G29F5986U8;
 				INFOPLIST_FILE = FinalKnife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
